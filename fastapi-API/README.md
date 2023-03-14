@@ -4,7 +4,7 @@
 # Para el entorno virtual es necesario usar una terminal
 # (Puede ser la de preferencia o Gitbash)
 
-python3 -m venv venv
+python -m venv venv
 
 # Para activar el entorno utilizamos el siguiente comando:
 # Windows

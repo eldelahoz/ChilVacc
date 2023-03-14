@@ -4,13 +4,13 @@
 # Para el entorno virtual es necesario usar una terminal
 # (Puede ser la de preferencia o Gitbash)
 
-python3 -m venv ChilVacVenv
+python3 -m venv venv
 
 # Para activar el entorno utilizamos el siguiente comando:
 # Windows
-source ChilVacVen/Scripts/activate
+source venv/Scripts/activate
 # Linux
-source ChilVacVenv/bin/activate
+source venv/bin/activate
 
 # Luego instalamos los requerimentos con el siguiente comando:
 pip install -r requirements.txt

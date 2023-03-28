@@ -1,0 +1,26 @@
+[
+ {
+	caso 1 : ¿Cuantos años tiene?
+	caso 2: ¿Cuantos meses tiene?
+	
+ }
+
+ {
+	1 año : ["Sarampion-Rubeolas-Paperas primera dosis", "Varicela primera dosis", "Neumococo refuerzo", "Hepatitis A primera dosis"] 
+	1.5 años: ["Tetano(Difteria, Tosferina) primer refuerzo", "Poliomielitis primer refuerzo", "Fiebre Amarilla(FA) única dosis"]
+	5 años: ["Tetano(Difteria, Tosferina) segundo refuerzo", "Poliomielitis segundo refuerzo", "Sarampion-Rubeolas-Paperas refuerzo", "Varicela refuerzo"]
+	9 años: "Virus del papiloma humano (VPH), si es la primera dosis comunicate con tu eps y agenda una cita, recuerda que la segunda dosis debe ser 6 meses despues"
+	10-49 años: "Toxoide tetanico y difterico del adulto(td)
+		5 dosis:
+                  TD1: dosis inicial
+                  TD2: al mes de Td1
+                  TD3: a los 6 meses de Td2
+                  TD4: al año de Td3
+                  TD5: al año de Td4
+                  Refuerzo cada de 10 años.
+		     "
+        60 años: "Influenza estacional, Recuerda que esta vacuna deber ser aplicada de manera anual después de los 60 años"
+ }
+
+
+]

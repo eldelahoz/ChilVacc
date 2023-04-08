@@ -7,6 +7,8 @@ import tensorflow
 import json
 import random
 import pickle 
+import discord
+llave = "MTA5NDAzNDM5MTMxNzEwMjgyMw.GwEYCn.vKCizLAFHO5Onn_i6VjJBr83RrUewP4_-EWFH0"
 
 nltk.download('punkt')
 with open('contenido.json', encoding='utf-8') as archivo:
@@ -72,21 +74,30 @@ except:
     modelo.save("modelo.tflearn")
 
 def mainBot():
+    global llave
+    intents = discord.Intents.default()
+    intents.message_content = True
+    cliente = discord.Client(intents=intents)
     while True:
-        entrada = input("Tu: ")
-        cubeta = [0 for _ in range(len(palabras))]
-        entradaProcesada = nltk.word_tokenize(entrada)
-        entradaProcesada = [stemmer.stem(palabra.lower()) for palabra in entradaProcesada]
-        for palabraIndividual in entradaProcesada:
-            for i,palabra in enumerate(palabras):
-                if palabra == palabraIndividual:
-                    cubeta[i] = 1
-        resultados = modelo.predict([numpy.array(cubeta)])
-        resultadosIndices = numpy.argmax(resultados)
-        tag = tags[resultadosIndices]
+        @cliente.event
+        async def on_message(mensaje):
+            if mensaje.author == cliente.user:
+                return
+            cubeta = [0 for _ in range(len(palabras))]
+            entradaProcesada = nltk.word_tokenize(mensaje.content)
+            entradaProcesada = [stemmer.stem(palabra.lower()) for palabra in entradaProcesada]
+            for palabraIndividual in entradaProcesada:
+                for i,palabra in enumerate(palabras):
+                    if palabra == palabraIndividual:
+                        cubeta[i] = 1
+            resultados = modelo.predict([numpy.array(cubeta)])
+            resultadosIndices = numpy.argmax(resultados)
+            tag = tags[resultadosIndices]
 
-        for tagAux in datos["contenido"]:
-            if tagAux["tag"] == tag:
-                respuesta = tagAux["respuestas"]
-        print("BOT: ", random.choice(respuesta))
+            for tagAux in datos["contenido"]:
+                if tagAux["tag"] == tag:
+                    respuesta = tagAux["respuestas"]
+            ##print("BOT: ", random.choice(respuesta))
+            await mensaje.channel.send(random.choice(respuesta))
+        cliente.run(llave)
 mainBot()

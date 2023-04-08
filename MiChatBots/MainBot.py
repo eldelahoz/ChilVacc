@@ -8,7 +8,7 @@ import json
 import random
 import pickle 
 import discord
-llave = "MTA5NDAzNDM5MTMxNzEwMjgyMw.GwEYCn.vKCizLAFHO5Onn_i6VjJBr83RrUewP4_-EWFH0"
+llave = "MTA5NDAzNDM5MTMxNzEwMjgyMw.G9XCnX.sYg5LB3JD-d_0OjTMKd3CkhbmFceU-9kvImTBU"
 
 nltk.download('punkt')
 with open('contenido.json', encoding='utf-8') as archivo:

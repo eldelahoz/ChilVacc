@@ -1,0 +1,11 @@
+{"intents": [
+    {"tag": "Saludos",
+      "patterns": ["Hola", "Como estas", "Como estas?", "Holi", "Hasta luego", "hola", "Hey", "saludos"],
+      "responses": ["Hola!", "Hola! en que te puedo ayudar", "Hola mi nombre es ChilVac, en que te puedo ayudar"],
+      "context_set": ""
+    },
+    {
+        
+    }
+  ]
+  }

@@ -1,0 +1,108 @@
+{
+    "contenido": [
+        {
+            "tag": "saludo",
+            "patrones": [
+                "Hola",
+                "Buenos dias",
+                "Buenas Tardes",
+                "hello"
+            ],
+            "respuestas": [
+                "Hola que tal! Bienvenido a Chilvacc, cuentame que necesitas? ",
+                "",
+                "Hola! soy ChilVacc, como te puedo ayudar?",
+                "Hola, un gusto verte de nuevo como te ayudo?",
+                "Hello, mi nombre es ChilVacc en que te puedo servir?"
+            ]
+        },
+        {
+            "tag": "despedida",
+            "patrones": [
+                "adios",
+                "Nos vemos",
+                "hasta la proxima",
+                "chao"
+            ],
+            "respuestas": [
+                "Fue un placer ayudarte",
+                "Vuelve pronto",
+                "Cuidate, nos vemos pronto",
+                "Fue un gusto ayudarte, bay!"
+            ]
+        },
+        {
+            "tag": "quien soy?",
+            "patrones": [
+                "quien eres?",
+                "Como te llamas?",
+                "De donde eres?",
+                "que eres?"
+            ],
+            "respuestas": [
+                "Soy ChillVacc, un modelo de lenguaje desarrollado un grupo de estudiantes del Tdea. Estoy diseñado para responder preguntas y proporcionar informacion con enfasis al sistema de vacunacion. ¿En que puedo ayudarte hoy?"
+            ]
+        },
+        {
+            "tag": "Esquema de vacunación",
+            "patrones": [
+                "que es el esquema de vacunación?",
+                "esquema de vacunacion",
+                "para que sirve vacunarse"
+            ],
+            "respuestas": [
+                "El esquema de vacunación se refiere a un plan o calendario establecido por las autoridades sanitarias de cada país para la administración de vacunas a la población. Este plan determina el tipo de vacunas que se deben administrar, la edad en la que se deben recibir y el número de dosis necesarias para alcanzar la protección adecuada.",
+                "El objetivo principal del esquema de vacunación es prevenir la aparición de enfermedades infecciosas y reducir el riesgo de su propagación a nivel comunitario. La vacunación es una herramienta muy efectiva para prevenir enfermedades como el sarampión, la poliomielitis, la hepatitis B, la varicela, la gripe y muchas otras.",
+                "Es importante seguir el esquema de vacunación recomendado por las autoridades sanitarias, ya que esto garantiza una protección adecuada contra las enfermedades infecciosas y ayuda a prevenir su propagación en la comunidad. Además, el seguimiento del esquema de vacunación ayuda a proteger a las personas más vulnerables, como los niños pequeños, los ancianos y las personas con sistemas inmunológicos debilitados."
+            ]
+        },
+        {
+            "tag": "Esquema de vacunación1",
+            "patrones": [
+                "Necesito saber cual es la proxima vacuna de mi hijo",
+                "Necesito saber cual es mi proxima vacuna"
+            ],
+            "respuestas": [
+                "Cuantos años tiene el paciente o es un recien nacido?"
+            ]
+        },
+        {
+            "tag": "recien nacido",
+            "patrones": [
+                "si es un recien nacido"
+            ],
+            "respuestas": [
+                "Estas son las vacunas que le corresponden a un recien nacido segun su candidad de meses. Recién nacidos: BCG (1 dosis) y Hepatitis B (1 dosis) 2 meses: Pentavalente (1ª dosis), Polio (1ª dosis) y Rotavirus (1ª dosis) 4 meses: Pentavalente (2ª dosis), Polio (2ª dosis) y Rotavirus (2ª dosis) 6 meses: Pentavalente (3ª dosis), Polio (3ª dosis) y Rotavirus (3ª dosis) 7 meses: Neumococo conjugada (1ª dosis)"
+            ]
+        },
+        {
+            "tag": "mayores de 1año",
+            "patrones": [
+                "1 año",
+                "1",
+                "2 años",
+                "2",
+                "3 años",
+                "3",
+                "4 años",
+                "4",
+                "5 años",
+                "5",
+                "6 años",
+                "6",
+                "7 años",
+                "7",
+                "8 años",
+                "8",
+                "9 años",
+                "9",
+                "10 años",
+                "10"
+            ],
+            "respuestas": [
+                "Estas son las vacunas que le corresponden segun el rango de edad del paciente. 1 año: Triple viral (1ª dosis) y Hepatitis A (1ª dosis) 15 meses: Triple viral (2ª dosis) y Varicela (1ª dosis) 6 años: Doble viral (1ª dosis) y Fiebre amarilla (1ª dosis) 7 años: Fiebre amarilla (2ª dosis) 10 años: VPH (2 dosis para niñas entre 9 y 14 años o 3 dosis para mujeres entre 15 y 26 años), Neumococo polisacárida (1 dosis) e Influenza (1 dosis anual)"
+            ]
+        }
+
+    ]
+}

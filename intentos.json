@@ -1,0 +1,13 @@
+{"intents":[
+    {"tag":"Saludos",
+    "patterns":["hola","hola, como estas","buenos dias","buenas tardes","buenas noches","buenas"],
+    "responses":["Hola","Como te puedo ayudar"]},
+    {"tag":"EdadVacunacion",
+    "patterns":["a que edad debo vacunar a mi bebe","a los cuantos meses debo vacunar a mi bebe"],
+    "responses":["Apartir del primer mes"]},
+    {"tag":"Edad1",
+    "patterns":["que vacunas le debo poner a mi bebe que esta recien nacido?","mi bebe esta recien nacido que vacunas le debo poner?",
+    "cuales son la vacunas para mi bebe recien nacido"],
+    "responses":["La vacuna que le debes aplicar a tu bebe es la de hepatitis B"]}
+
+]}

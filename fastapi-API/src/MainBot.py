@@ -77,4 +77,4 @@ def mainBot(mensage):
     for tagAux in datos["contenido"]:
         if tagAux["tag"] == tag:
             respuesta = tagAux["respuestas"]
-    return ("BOT: ", random.choice(respuesta))
+    return ("ChilVacc: ", random.choice(respuesta))

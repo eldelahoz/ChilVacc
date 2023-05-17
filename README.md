@@ -12,8 +12,8 @@ Se realiza un chatbot empleado librerías como nltk, tensorflow, entre otras par
 
 ### Backend
 
-[ChilVacc-API](https://github.com/eldelahoz/ChilVacc/tree/Entrega2/ChilVacc-API)
+[ChilVacc-API](https://github.com/eldelahoz/ChilVacc/tree/Entrega3/ChilVacc-API)
 
 ### Frontend
 
-[ChilVacc](https://github.com/eldelahoz/ChilVacc/tree/Entrega2/ChilVacc)
+[ChilVacc](https://github.com/eldelahoz/ChilVacc/tree/Entrega3/ChilVacc)

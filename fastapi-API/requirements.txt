@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-nltk
-numpy
-tflearn
-tensorflow

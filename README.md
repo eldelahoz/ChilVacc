@@ -1,6 +1,6 @@
 # ChilVacc
 
-[<img src="img/ChilVacc.png" width="250" height="250">](https://github.com/eldelahoz/ChilVacc)
+[<img src="ChilVacc/src/image/ChilVacc.png" width="250" height="250">](https://github.com/eldelahoz/ChilVacc)
 
 ## Gestion del Proyecto en Jira
 

@@ -39,3 +39,34 @@ Tercero, ejecutar la aplicacion:
 # Estar en la ruta de la carpeta ChatBot
 python MainBot.py
 ```
+
+### Usar FastAPI
+
+[FastAPI-Backend](https://github.com/eldelahoz/ChilVacc/tree/Entrega2/FastAPI-Backend)
+
+Primero, crear el entorno virtual de Python:
+
+```sh
+# Terminal de Windows o Linux
+python -m venv venvFastAPI
+# Para activar el entorno utilizamos el siguiente comando:
+# Windows
+source venv/Scripts/activate
+# Linux
+source venv/bin/activate
+```
+
+Segundo, instalar las librerías requeridas para el funcionamiento de la APP:
+
+```sh
+# Estar en la ruta de la carpeta FastAPI-Backend
+pip install -r requirements.txt
+```
+
+Tercero, ejecutar la aplicacion:
+
+```sh
+# Estar en la ruta de la carpeta FastAPI-Backend
+# Ya con esto podemos correr nuestro servidor de FastAPI
+uvicorn main:app --reload
+```

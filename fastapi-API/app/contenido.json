@@ -60,15 +60,7 @@
             "tag": "Esquema de vacunación1",
             "patrones": [
                 "Necesito saber cual es la proxima vacuna de mi hijo",
-                "Necesito saber cual es mi proxima vacuna",
-                "Necesito saber cual es la proxima vacuna de mi hijo",
-                "Necesito saber cual es mi proxima vacuna",
-                "Mi bebe niño esta enfermo y no se cual su proxima vacuna",
-                "Requiero vacunar a",
-                "Me gustaria saber cual es mi proxima vacuna",
-                "Cual es su proxima vacuna",
-                "Que vacunas le faltan a ",
-                "Que vacunas me faltan"
+                "Necesito saber cual es mi proxima vacuna"
             ],
             "respuestas": [
                 "Cuantos años tiene el paciente o es un recien nacido?"
@@ -87,34 +79,24 @@
             "tag": "mayores de 1año",
             "patrones": [
                 "1 año",
-                "uno",
                 "1",
                 "2 años",
-                "dos",
                 "2",
                 "3 años",
-                "tres",
                 "3",
                 "4 años",
-                "cuatro",
                 "4",
                 "5 años",
-                "cinco",
                 "5",
                 "6 años",
-                "seis",
                 "6",
                 "7 años",
-                "siete",
                 "7",
                 "8 años",
-                "ocho",
                 "8",
                 "9 años",
-                "nueve",
                 "9",
                 "10 años",
-                "diez",
                 "10"
             ],
             "respuestas": [
@@ -122,7 +104,5 @@
             ]
         }
 
-    ]
-}
     ]
 }

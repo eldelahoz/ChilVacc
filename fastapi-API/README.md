@@ -16,5 +16,5 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Ya con esto podemos correr nuestro servidor de FastAPI
-uvicorn main:app -reload
+uvicorn main:app --reload
 ```

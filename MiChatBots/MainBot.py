@@ -127,7 +127,7 @@ def mainBot():
         #La respuesta del chatbot se imprime.
         print("BOT: ", random.choice(respuesta))
 
-#Llamada a la función principa
+#10. Llamada a la función principa
 #El programa finaliza con la llamada a la función mainBot(), lo que inicia el chatbot y lo mantiene 
 # en ejecución en un bucle infinito hasta que se interrumpa manualmente.
 mainBot()

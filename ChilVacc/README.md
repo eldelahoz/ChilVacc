@@ -16,7 +16,7 @@ tu puedes correr el proyecto con:
 
 lo puedes observar en tu navegador en [http://localhost:3000](http://localhost:3000).
 
-# documentacion 
+# Documentacion 
 
 https://create-react-app.dev/docs/getting-started
 

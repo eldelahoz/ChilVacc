@@ -1,6 +1,6 @@
 # ChilVacc interfaz 
 
-# Instalar las dependencias del proyecto
+## Instalar las dependencias del proyecto
 
 ### `npm install`  
 
@@ -9,6 +9,18 @@
 Tu puedes correr el proyecto con:
 
 ### `npm start`
+
+## Dockerizar
+
+Para poder tener un conedor de la app, tenemos que generar la imagen
+
+`docker build -t "nombre de la imagen" .`
+
+Luego generar un contenedor de esa imagen
+
+`docker run --name "nombre del contenedor" -p 3000:3000 "nombre de la imagen"`
+
+Y tendremos nuestro frontend dockerizado
 
 Lo puedes observar en tu navegador en [http://localhost:3000](http://localhost:3000).
 

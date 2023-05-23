@@ -2,11 +2,11 @@
 
 # Requemiento de intalacion 
 
-### npx create-react-app my-app  
-### npm init react-app my-app
-### yarn create react-app my-app
-### cd my-app
-### npm start
+### `npx create-react-app my-app`  
+### `npm init react-app my-app`
+### `yarn create react-app my-app`
+### `cd my-app`
+### `npm start`
 
 ## iniciar el  proyecto
 

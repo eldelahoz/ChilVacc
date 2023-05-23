@@ -1,20 +1,16 @@
 # ChilVacc interfaz 
 
-# Requemiento de intalacion 
+# Instalar las dependencias del proyecto
 
-### `npx create-react-app my-app`  
-### `npm init react-app my-app`
-### `yarn create react-app my-app`
-### `cd my-app`
-### `npm start`
+### `npm install`  
 
-## iniciar el  proyecto
+## Iniciar el  proyecto
 
-tu puedes correr el proyecto con:
+Tu puedes correr el proyecto con:
 
 ### `npm start`
 
-lo puedes observar en tu navegador en [http://localhost:3000](http://localhost:3000).
+Lo puedes observar en tu navegador en [http://localhost:3000](http://localhost:3000).
 
 # Documentacion 
 
